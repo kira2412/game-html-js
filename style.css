@@ -1,0 +1,247 @@
+body {
+    background-color: black;
+}
+
+.nam {
+    position: absolute;
+    z-index: 20;
+    }
+ 
+ 
+ 
+ .world {
+     display: block;
+     background-image: url(land/ground.png);
+     width: 1420px;
+     height: 920px;
+     border: 10px solid black; ;
+     position: fixed;
+    }
+
+
+    .mountainOne {
+        background-image: url(land/mountain.png);
+        width: 260px;
+        height: 200px;
+        position: fixed;
+        left: 500px;
+    } 
+    .mountainTwo {
+        background-image: url(land/mountain.png);
+        width: 130px;
+        height: 200px;
+        position: fixed;
+        left: 100px;
+        top: 300px;
+    }
+    .mountainThre {
+        background-image: url(land/mountain.png);
+        width: 520px;
+        height: 200px;
+        position: fixed;
+        top: 700px;
+    }
+    .mountainFour {
+        background-image: url(land/mountain.png);
+        width: 260px;
+        height: 400px;
+        position: fixed;
+        left: 1150px;
+        top: 500px;
+    }    
+  
+.riverOne {
+    background-image: url(land/water.png);
+    width: 100px;
+    height: 390px;
+    position: fixed;
+    left: 780px;
+}
+.riverTwo {
+    background-image: url(land/water.png);
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    left: 880px;
+    top: 300px;
+}
+.bridge {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    left: 1060px;
+    top: 300px;
+}
+.riverThree {
+    background-image: url(land/water.png);
+    width: 260px;
+    height: 100px;
+    position: fixed;
+    left: 1150px;
+    top: 300px;
+}
+
+.woodOne {
+    background-image: url(land/tree.png);
+    width: 50px;
+    height: 250px;
+    position: fixed;
+    left: 720px;
+    top: 180px;
+
+}
+.woodTwo {
+    background-image: url(land/treeP.png);
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    left: 400px;
+    top: 500px;
+
+}
+.woodThree {
+    background-image: url(land/tree.png);
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    left: 1300px;
+    top: 100px;
+
+}
+.woodFour {
+    background-image: url(land/tree.png);
+    width: 900px;
+    height: 50px;
+    position: fixed;
+    left: 500px;
+    top: 850px;
+
+}
+.woodFive {
+    background-image: url(land/treeP.png);
+    width: 30px;
+    height: 750px;
+    position: fixed;
+    left: 10px;
+    
+
+}
+
+
+.monstr {
+    position: absolute;
+
+}
+
+#firstMnstr {
+    margin-top: 100px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+#twoMnstr {
+    margin-top: 180px;
+    margin-left: 1100px;
+    position: absolute;
+}
+
+#threMnstr {
+    margin-top: 450px;
+    margin-left: 100px;
+    position: absolute;
+
+}
+
+#fourMnstr {
+    margin-top: 600px;
+    margin-left: 800px;
+    position: absolute;
+
+}
+#fiveMnstr {
+    margin-top: 0px;
+    margin-left: 1200px;
+    position: absolute;
+}
+.cave {
+    margin-left: 1290px;
+}
+
+
+.none {
+    display: none;
+}
+
+
+ .underworld {
+     display: block;
+    background-image: url(land/bossBackground.jpg);
+    width: 1400px;
+    height:700px;
+    border: 5px solid grey;
+ }
+.namUnder {
+    margin-top: 490px;
+    position: absolute;
+    z-index: 20;
+}
+
+#dead {
+    
+    margin-left: 600px; 
+    position: absolute;
+}
+
+
+
+
+
+ .weapon {
+     position: fixed;
+     width: 250px;
+     height: 300px;
+     background-color: gray;
+     margin-top: 0px;
+     margin-left: 1420px;
+     margin-top: 10px;
+     padding-top: 5px;
+    
+ }
+ .table {
+     margin-left: 20%;
+     width: 80px;
+     height: 50px;
+     background-color: rgba(15, 4, 4, 0.322);
+     font-size: 80%;
+ }
+ .foto {
+     position: absolute;
+     margin-left: 150px;
+     margin-top: -200px;
+ }
+.hpList {
+    margin-top: -650px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+ .xp {
+     width: 100px;
+     height: 5px;
+     background-color: red;
+     float: left;
+     
+ }
+
+ .clean {
+     display: none;
+ }
+ .end {
+     background-color: black;
+     color: white;
+     display: flex;
+     /* justify-content: center; */
+     margin-top: 700px;
+     /* margin-left: 500px; */
+ }
